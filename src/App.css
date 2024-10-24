@@ -1,0 +1,42 @@
+html, body, #reactapp, .App {
+  min-height:100vh;
+}
+
+.App {
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  padding:20px;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 400px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:10px;
+  margin-bottom:10px
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top:10px;
+  margin-bottom:10px
+}
+
+.error-text {
+  color:red
+}
